@@ -10,23 +10,23 @@ public class Observer : MonoBehaviour
     bool m_IsPlayerInRange;
 
     void OnTriggerEnter (Collider other)
-    {
+    {/*
         if(other.transform == player)
         {
             m_IsPlayerInRange = true;
-        }
+        }*/
     }
 
     void OnTriggerExit (Collider other)
-    {
+    {/*
         if(other.transform == player)
         {
             m_IsPlayerInRange = false;
-        }
+        }*/
     }
 
     void Update()
-    {
+    {/*
         if(m_IsPlayerInRange)
         {
             Vector3 direction = player.position - transform.position + Vector3.up;
@@ -41,7 +41,7 @@ public class Observer : MonoBehaviour
                 }
             }
             
-        }
+        }*/
 
     }
 }
