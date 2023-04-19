@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3895341678562403105, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3895341678569787623, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
       propertyPath: m_Controller
       value: 
@@ -233,6 +237,10 @@ PrefabInstance:
     - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_Name
       value: Gargoyle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4091368854982079112, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_RootOrder
@@ -548,6 +556,7 @@ Transform:
   m_Father: {fileID: 1624044145}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &497201621
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +591,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!1 &585427274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+  m_PrefabInstance: {fileID: 1845197990}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> 8b05e4455f29ef8e124cb374d03cdf0e8272afc7
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +703,7 @@ GameObject:
   - component: {fileID: 903633991}
   m_Layer: 0
   m_Name: Enemies
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,6 +783,10 @@ PrefabInstance:
     - target: {fileID: 3895341678562403105, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
       propertyPath: m_Name
       value: Ghost (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895341678562403105, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3895341678569787623, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
       propertyPath: m_Controller
@@ -1513,7 +1533,11 @@ Transform:
   m_Father: {fileID: 1624044145}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1124359522
+=======
+--- !u!1 &1159797621
+>>>>>>> 8b05e4455f29ef8e124cb374d03cdf0e8272afc7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1521,21 +1545,116 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1124359523}
   - component: {fileID: 1124359524}
   m_Layer: 0
   m_Name: Escape
+=======
+  - component: {fileID: 1159797626}
+  - component: {fileID: 1159797625}
+  - component: {fileID: 1159797624}
+  - component: {fileID: 1159797623}
+  - component: {fileID: 1159797622}
+  m_Layer: 0
+  m_Name: Indicator
+>>>>>>> 8b05e4455f29ef8e124cb374d03cdf0e8272afc7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1124359523
+=======
+--- !u!114 &1159797622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6e867e56eb32f4d8b6054cd92d9621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  john: {fileID: 1565390519}
+  G: {fileID: 1352533515}
+  G1: {fileID: 585427274}
+  G2: {fileID: 1812415244}
+  safe: {fileID: 2100000, guid: deb6c202a750d354793ecd18f8abbc41, type: 2}
+--- !u!135 &1159797623
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1159797624
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797621}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: deb6c202a750d354793ecd18f8abbc41, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1159797625
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159797621}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1159797626
+>>>>>>> 8b05e4455f29ef8e124cb374d03cdf0e8272afc7
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1124359522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1641,6 +1760,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  m_GameObject: {fileID: 1159797621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.8, y: 1.6, z: -3.2}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 8b05e4455f29ef8e124cb374d03cdf0e8272afc7
 --- !u!1 &1273008688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1909,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317426030}
   m_CullTransparentMesh: 1
+--- !u!1 &1352533515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+  m_PrefabInstance: {fileID: 4835041109358144018}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1406064600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,6 +2102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3895341678562403105, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3895341678569787623, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
       propertyPath: m_Controller
       value: 
@@ -2148,6 +2287,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1812415244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+  m_PrefabInstance: {fileID: 21770570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1845197990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2158,6 +2302,10 @@ PrefabInstance:
     - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_Name
       value: Gargoyle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4091368854982079112, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_RootOrder
@@ -5139,6 +5287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
+    - target: {fileID: 3895341678562403105, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3895341678569787623, guid: f101763575a84284b95e9851ff3ce5a5, type: 3}
       propertyPath: m_Controller
       value: 
@@ -5168,6 +5320,10 @@ PrefabInstance:
     - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_Name
       value: Gargoyle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091368854981848744, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4091368854982079112, guid: c3378a0f480c30b4b87ff762ccc8c6de, type: 3}
       propertyPath: m_RootOrder

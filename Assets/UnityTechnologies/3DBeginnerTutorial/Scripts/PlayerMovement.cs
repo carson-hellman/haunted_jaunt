@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody m_Rigidbody;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
+    GameObject indicator;
 
 
     // Start is called before the first frame update
