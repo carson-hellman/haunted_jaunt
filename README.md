@@ -1,7 +1,7 @@
 ﻿# CS410 Assignment 2
 ## Haunted Jaunt
 
-### Members
+# Members
 
 ### Carson Hellman
     - Character, environment, LERP for orb
